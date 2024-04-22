@@ -25,8 +25,8 @@ jobs:
 
       - name: Dukou checkin
         env:
-          EMAIL_KEY: ${{ secrets.EMAIL_KEY }}
-          PASSWD_KEY: ${{ secrets.PASSWD_KEY }}
+          EMAIL_KEY: ${{ secrets.EMAILKEY }}
+          PASSWD_KEY: ${{ secrets.PASSWDKEY }}
           SERVER_KEY: ${{ secrets.SERVER_KEY }}
         run: |
           dart pub get
